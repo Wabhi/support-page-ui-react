@@ -1,0 +1,127 @@
+.App {
+  width: 1440px;
+  height: 584px;
+  background: linear-gradient(
+    180deg,
+    rgba(152, 233, 237, 0.7) 0%,
+    rgba(255, 108, 25, 0.29) 146.76%
+  );
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 40px;
+}
+
+.text-wrapper {
+  width: 546px;
+  display: flex;
+  height: 503px;
+  align-items: center;
+  flex-direction: column;
+}
+.form-wrapper {
+  width: 546px;
+  height: 425px;
+  background: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0px;
+}
+
+.form-wrapper h1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  margin-left: -304px;
+  color: #000000;
+}
+
+.input-field {
+  width: 466px;
+  height: 51px;
+  border: 1px solid #979797;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.input-field-textarea {
+  width: 466px;
+  height: 114px;
+  border: 1px solid #979797;
+  border-radius: 4px;
+}
+
+::placeholder {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #979797;
+  padding-left: 10px;
+}
+
+.send-btn {
+  width: 180px;
+  height: 40px;
+  background: #35aeb4;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-left: -289px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+}
+
+.send-btn span {
+  margin-left: 18px;
+  font-size: 20px;
+}
+
+.heading-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 54px;
+  color: #000000;
+}
+
+.subheading-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #48494a;
+}
+
+.email,
+.phone {
+  margin-left: -342px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.phone {
+  margin-left: -396px;
+}
+.email p {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #48494a;
+}
